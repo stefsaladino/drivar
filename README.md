@@ -1,7 +1,7 @@
 # Drivar
 
 [<img style="background-color: rgba(0, 0, 0, 0.0470588);"
-src="http://cmcrobotics.github.io/raspbuggy/images/rb-banner-147e2ba19ca3551c2b7cc049e823c7bf.png">](http://cmcrobotics.github.io/raspbuggy)
+src="http://libraries.ecolint.ch/chasci/wp-content/uploads/2016/10/Gianopi_10.5.png">](http://libraries.ecolint.ch/chasci/)
 
 Drivar a **hardware abstraction layer for a collection of wifi programmable RC cars**, such as the [GianoPi holonomic car](http://github.com/stefsaladino/GianoPi) or the [Raspbuggy](http://cmcrobotics.github.io/raspbuggy) and a variety of hardware control adapters (Pimoroni Explorer HAT, Push-pull drivers, Adafruit DC Motor, Lego Mindstorm).
 

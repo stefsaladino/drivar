@@ -5,11 +5,11 @@ RUN git clone https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library.git
 RUN cd Adafruit-Motor-HAT-Python-Library && python setup.py install
 
 # Simplecv dependencies (python 3)
-RUN apt-get install ipython python-opencv python-scipy python-numpy python-pygame python-setuptools python-pip
+RUN apt-get install -y ipython python-opencv python-scipy python-numpy python-pygame python-setuptools python-pip
 RUN pip2 install svgwrite
 RUN pip2 install https://github.com/sightmachine/SimpleCV/zipball/master
-RUN apt-get install python-picamera
-RUN apt-get install python-zbar
+RUN apt-get install -y python-picamera
+RUN apt-get install -y python-zbar
 
 # Install python 2.7 kernel
 RUN python2 -m pip install ipykernel
